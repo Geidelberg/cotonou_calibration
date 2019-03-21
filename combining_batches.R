@@ -2,12 +2,11 @@
 
 #     setwd("Q:/cotonou_cluster")
 
-setwd("C:\\Users\\eg1012\\Desktop")
+# setwd("C:\\Users\\eg1012\\Desktop")
 
 source('Q:/cotonou_cluster/source_data.R')
-batch_folder = "1207_combined_final"
 
-batch_folder = "1508"
+
 
 batch_folder = "over_100"
 
@@ -19,7 +18,7 @@ solving_method = "lsoda"
 
 
 # fits
-res_best_runs <- get(load(file = "C:\\Users\\eg1012\\Desktop/final_111/res_best_runs_final_111.Rdata"))
+# res_best_runs <- get(load(file = "C:\\Users\\eg1012\\Desktop/final_111/res_best_runs_final_111.Rdata"))
 time <- c(seq(1986, 2035))
 
 
